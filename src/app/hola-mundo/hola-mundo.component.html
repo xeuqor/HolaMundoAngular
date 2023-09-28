@@ -1,3 +1,60 @@
-<h1 class="HolaMundo">
-    el chino es un pendejo jajaxd
-</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Deudores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            background-color: #d8690d;
+            color: #fff;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .deudor {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .imagen-deudor {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+        .nombre-deudor {
+            font-weight: bold;
+        }
+        .cantidad-deuda {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de Deudores</h1>
+    </header>
+    <div class="deudor">
+        <img class="imagen-deudor" src="https://lh3.googleusercontent.com/a-/ALV-UjXXRbt1uUiv-4cW7XXXx13dxpVPgrx45-3LO6sVfW_BXRY=s0" alt="Deudor 1">
+        <div>
+            <p class="nombre-deudor">Juan Carlos Lopez Palos</p>
+            <p class="cantidad-deuda">Cantidad que debe: $1,000</p>
+            <app-boton></app-boton>
+        </div>
+    </div>
+    <div class="deudor">
+        <img class="imagen-deudor" src="https://lh3.googleusercontent.com/a-/ALV-UjXJ0J2RfBMnVKGTJdrgXnr9tanyOJkE4ptiyWoGvbt95Q=s0" alt="Deudor 2">
+        <div>
+            <p class="nombre-deudor">Constancio Arce Bojorquez</p>
+            <p class="cantidad-deuda">Cantidad que debe: $1500</p>
+            <app-boton></app-boton>
+        </div>
+    </div>
+    <!-- Agrega más deudores según sea necesario -->
+</body>
+</html>
